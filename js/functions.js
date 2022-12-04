@@ -9,6 +9,12 @@
  * > sayHello("codeup") // returns "Hello, codeup!"
  */
 
+function sayHello(name) {
+    return `Hello ${name}!`
+}
+
+console.log(sayHello(`codeup`));
+
 /**
  * TODO:
  * Call the function 'sayHello' and pass your name as a string literal argument.
@@ -17,12 +23,23 @@
  * console.log 'helloMessage' to check your work
  */
 
+console.log(sayHello(`Aharown`));
+
+
 /**
  * TODO:
  * Store your name as a string in a variable named 'myName', and pass that
  * variable to the 'sayHello' function. You should see the same output in the
  * console.
  */
+
+let myName = `Aharown`;
+
+console.log(sayHello(myName));
+
+
+
+
 
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
